@@ -1,0 +1,93 @@
+html{
+    background-color: gray;
+}
+
+nav{
+    padding:15px 40px;
+    background-color: #ff8000;
+    font-family: Arial;
+    margin: 0;
+    color: white;
+}
+
+.boton{
+    position:absolute;  left: 20%;
+    color: yellow;
+}
+
+.boton:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+.boton:visited {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.boton:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+    }
+
+.boton:active {
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.btn{
+    margin-left: 5px;
+    padding: 6px 10px;
+}
+
+/*MOSTRANDO*/
+.dataTables_info { 
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 25px;
+}
+
+/*MOSTRAR*/
+.dataTables_filter{
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: none;
+}
+
+/*BUSCAR*/
+.dataTables_filter input{
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*ANTERIOR SIGUIENTE*/
+.dataTables_paginate{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/*TEXTO DE ADENTRO*/
+.dataTables_wrapper{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.dataTables_length{
+    display: none;
+}
+
+/**/
+.custom-select{
+    width: 59.8%;
+    text-align: center;
+}
+
+.entrada{
+    width: 57.2%;
+    text-align: center;
+}
